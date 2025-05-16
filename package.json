@@ -1,0 +1,24 @@
+{
+  "name": "embed-tableau-dashboard",
+  "version": "1.0.0",
+  "description": "Embedding tableau dashboard by using JWT authentication",
+  "license": "ISC",
+  "contributors": [
+    "Arthi Elangovan <aelangovan@jmxi.io>",
+    "Priya Kumar <pkumar@jmxi.io>"
+  ],
+  "type": "module",
+  "main": "embed-tableau.js",
+  "scripts": {
+    "start": "node embed-tableau.js",
+    "build" : "npm install",
+    "clean": "npm cache clean --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
