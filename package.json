@@ -9,6 +9,7 @@
   ],
   "type": "module",
   "main": "embed-tableau.js",
+  "output_location": "." 
   "scripts": {
     "start": "node embed-tableau.js",
     "clean": "npm cache clean --force",
